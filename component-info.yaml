@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: just-a-test-service-from-backstage3
+  description: just-a-test-service
+  annotations: 
+    github.com/project-slug: crivetechie/just-a-test-service3
+    backstage.io/github-actions-id: crivetechie/just-a-test-service3
+spec:
+  type: service
+  lifecycle: experimental
+  owner: crivetechie
